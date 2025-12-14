@@ -1,0 +1,16 @@
+body{margin:0;font-family:'Segoe UI',sans-serif;color:#123}
+.navbar{position:fixed;top:0;width:100%;background:#0b3c5d;display:flex;justify-content:space-between;align-items:center;padding:15px 40px;z-index:1000}
+.logo{color:#fff;font-size:22px;font-weight:600}
+.nav-links{list-style:none;display:flex;gap:20px}
+.nav-links a{color:#e0f2ff;text-decoration:none}
+.nav-links a:hover,.nav-links .active{color:#ffd166}
+.hero{height:100vh;background:linear-gradient(rgba(11,60,93,.75),rgba(11,60,93,.75));display:flex;align-items:center;justify-content:center}
+.hero-content{text-align:center;color:#fff;max-width:900px}
+.btn-primary{background:#ffd166;color:#0b3c5d;padding:14px 26px;border-radius:30px;text-decoration:none;font-weight:600}
+.section{padding:80px 12%;text-align:center}
+.section.light{background:#f7fbff}
+.section.blue{background:#e3f2fd}
+.cards{display:flex;gap:30px;justify-content:center;flex-wrap:wrap}
+.card{background:#fff;padding:30px;width:280px;border-radius:15px;box-shadow:0 10px 25px rgba(0,0,0,.1)}
+.page-hero{margin-top:80px;background:#0b3c5d;color:#fff;padding:60px;text-align:center}
+footer{background:#082c44;color:#fff;text-align:center;padding:20px}
